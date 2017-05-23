@@ -3,29 +3,35 @@
   <head>
     <meta charset="utf-8">
     <title>A Simple Web Page with Styling</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="/style.css">
   </head>
   <body>
     <div class="header">
       <h1>Udacity HTML Basics</h1>
     </div>
     <!-- HTML and CSS files pass an automated validation check -->
-    <!-- Page displays at least 1 picture and some text -->
     <!-- Related container elements have the same class name -->
     <!-- Conceptually related content is contained within a container element -->
-    </div>
-    <div class="html-structure">
-      <h2>HTML document structure:</h2>
-        <ol>
-          <li>doctype declaration informs browser what kind of document it's rendering</li>
-          <li>html tags surround document</li>
-          <li>head contains metadata, title, links to CSS and Javascript</li>
-          <li>body cotains renderable contents</li>
-        </ol>
-      </li>
+      <section class="html-section">
+        <div class="html-structure">
+          <h2 class="subheader">Basic HTML document structure:</h2>
+            <ol>
+              <li>Doctype declaration informs browser what kind of document it's rendering</li>
+              <li>HTML tags surround document</li>
+              <li>Head contains metadata, title, links to CSS and Javascript</li>
+              <li>Body contains renderable contents</li>
+            </ol>
+          </li>
+        </div>
+        <div class="html-doc-img">
+          <!-- Page displays at least 1 picture and some text -->
+          <img src="basic-html.png" alt="basic html structure">
+          <div class="caption">Screenshot of HTML Starter text</div>
+        </div>
+      </section>
     </div>
     <div class="web-basics">
-      <h2>Basic HTML Elements</h2>
+      <h2 class="subheader">Basic HTML Elements</h2>
         <table>
           <tr>
             <th>Name</th><th>Tag</th><th>Purpose/function</th>
@@ -58,7 +64,7 @@
       </div>
 
       <div class="of-interest">
-        <h2>Notes of Interest</h2>
+        <h2 class="subheader">Notes of Interest</h2>
         <ul>
           <li>White space is mostly ignored by HTML, except inside tags</li>
           <li>Inline elements don't create line breaks or box (block), while block elements do</li>

@@ -1,70 +1,93 @@
 body {
-  font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;
-  color: black;
+  font-family: Verdana, Arial, sans-serif;
+  color: blue;
   line-height: 18pt;
   padding-left: 5pt;
   padding-right: 5pt;
   padding-top: 5pt;
-
+  background-color: gray;
 }
 
 
 h1 {
-  font: 20pt Verdana, Geneva, Arial, Helvetica, sans-serif;
+  font-family: Verdana, Arial, sans-serif;
   font-weight: bold;
+  color: blue;
   line-height: 20pt;
 }
 
 h2 {
-  font: 14pt Verdana, Geneva, Arial, Helvetica, sans-serif;
+  font-family: Verdana, Arial, sans-serif;
   font-weight: bold;
-  line-height: 20pt;
+  line-height: 16pt;
 }
 
 img {
   padding: 3pt;
-  float: right;
 }
 
-a {
-  text-decoration: none;
-}
+.image .caption { font-size: 80%;
+                  font-family: Verdana, Arial, sans-serif;
+                  text-align: center; }
 
 table {
-    width: 100%;
+  width: 100%;
 }
 
-th {
-    height: 50px;
-    text-align: left;
+th, td {
+  width: 33%;
+  text-align: left;
+}
+
+.header {
+  font-size: 24pt;
+  line-height: 12pt;
+  text-align: left;
+  padding-top: 30pt;
 }
 
 /* Class names are used in the CSS to style related elements */
 
-.header {
-  font-size: 10pt;
-  font-style: italic;
+.subheader {
+  font-size: 18pt;
   line-height: 12pt;
   text-align: left;
   padding-top: 30pt;
 }
 
+.html-section {
+    width: 80%;
+    height: 200px;
+    background: aqua;
+    margin: auto;
+    padding: 10px;
+}
+
 .html-structure {
-  font-size: 10pt;
-  font-style: italic;
+  width: 15%;
+  height: 200px;
+  float: left;
   line-height: 12pt;
   text-align: left;
   padding-top: 30pt;
 }
+
+.html-doc-img {
+  margin-left: 15%;
+  height: 200px;
+  float: left;
+  line-height: 12pt;
+  text-align: left;
+  padding-top: 30pt;
+}
+
 .web-basics {
-  font-size: 10pt;
   line-height: 12pt;
   text-align: left;
   padding-top: 30pt;
 }
 
 .of-interest {
-    font-size: 10pt;
     font-style: left;
     line-height: 12pt;
     padding-top: 30pt;

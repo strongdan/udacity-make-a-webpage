@@ -19,3 +19,5 @@ Use of Tags: Page uses tags correctly, e.g.<p> for paragraphs, <h1> for main hea
 Content Display: Page displays at least one image and some text.
 
 We recommend that you look over the project rubric to make sure your project meets requirements.
+
+This page is viewable [here](https://strongdan.github.io/udacity-make-a-webpage/)

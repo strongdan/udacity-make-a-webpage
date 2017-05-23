@@ -1,94 +1,92 @@
 body {
+  margin: 15px;
+  padding: 0px;
+  font-size: 100%;
+  line-height: 1.5;
   font-family: Verdana, Arial, sans-serif;
-  color: blue;
-  line-height: 18pt;
-  padding-left: 5pt;
-  padding-right: 5pt;
-  padding-top: 5pt;
-  background-color: gray;
+  color: white;
+  background: grey;
 }
 
+section, header {
+  display: block;
+}
 
 h1 {
-  font-family: Verdana, Arial, sans-serif;
-  font-weight: bold;
-  color: blue;
-  line-height: 20pt;
+  font-size: 40px;
+  line-height: 12px;
+  text-align: left;
+  padding: 20px 40px;
 }
 
 h2 {
-  font-family: Verdana, Arial, sans-serif;
-  font-weight: bold;
-  line-height: 16pt;
+  font-size: 30px;
+  padding: 10px;
+}
+
+ul, ol {
+  margin: 10px 0;
+  padding-left: 40px;
 }
 
 img {
-  padding: 3pt;
-}
-
-.image .caption { font-size: 80%;
-                  font-family: Verdana, Arial, sans-serif;
-                  text-align: center; }
-
-table {
-  width: 100%;
+  border: none;
+  max-width: 100%;
+  max-height: 100%;
 }
 
 th, td {
-  width: 33%;
   text-align: left;
+  padding: 5px;
 }
 
-.header {
-  font-size: 24pt;
-  line-height: 12pt;
-  text-align: left;
-  padding-top: 30pt;
+.caption {
+  text-align: center;
+  font-size: 70%;
 }
 
 /* Class names are used in the CSS to style related elements */
 
 .subheader {
-  font-size: 18pt;
-  line-height: 12pt;
+  line-height: 20px;
   text-align: left;
-  padding-top: 30pt;
 }
 
 .html-section {
-    width: 80%;
-    height: 200px;
-    background: aqua;
-    margin: auto;
-    padding: 10px;
+    max-width: 80%;
+    height: 260px;
+    padding: 30px;
 }
 
 .html-structure {
-  width: 15%;
-  height: 200px;
   float: left;
-  line-height: 12pt;
+  line-height: 30px;
   text-align: left;
-  padding-top: 30pt;
 }
 
 .html-doc-img {
-  margin-left: 15%;
+  margin-left: 5%;
   height: 200px;
   float: left;
   line-height: 12pt;
   text-align: left;
-  padding-top: 30pt;
+  float: left;
 }
 
-.web-basics {
-  line-height: 12pt;
-  text-align: left;
-  padding-top: 30pt;
+.web-basics-html {
+  max-width: 100%;
+  padding: 30px;
+}
+
+.web-basics-table {
+  border-collapse: collapse;
+  border-spacing: 4px;
+  display: block;
+  max-width: 80%;
+  padding: 20px;
 }
 
 .of-interest {
-    font-style: left;
-    line-height: 12pt;
-    padding-top: 30pt;
+  max-width: 80%;
+  padding: 30px;
 }
